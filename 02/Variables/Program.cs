@@ -17,12 +17,17 @@ namespace Variables
 
             char char1 = 'x';
             char char2 = '$';
+            
+            uint num1 = 4294967295;
+            uint num2 = 1;
+            uint result = num1 + num2;
 
             Console.WriteLine(int1 + "+" + int2 + "=" + (int1 + int2));
             Console.WriteLine(int1 + "-" + int2 + "=" + (int1 - int2));
             Console.WriteLine(float1 + "+" + float2 + "=" + (float1 + float2));
             Console.WriteLine(double1 + "+" + double2 + "=" + (double1 + double2));
             Console.WriteLine(char1 + "+" + char2 + "=" + (double1 + double1));
+            Console.WriteLine(result);
         }
     }
 }
