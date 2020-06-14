@@ -15,7 +15,7 @@ namespace Calculator
             Console.WriteLine("result1: " + result1);
             Console.WriteLine("result2: " + result2);
 
-            uint result3 = (uint)num1 - (uint)num2;
+             uint result3 = (uint)num1 - (uint)num2;
 
             Console.WriteLine("result3: " + result3);
 
