@@ -16,7 +16,7 @@ namespace PrimitiveTypesToBinary
             long long2 = long.MinValue;
 
             char char1 = 'x';
-            char char2 = '$';
+            char char2 = '$'; 
 
             Console.WriteLine(byte1 + " -> " + Convert.ToString(byte1, 2));
             Console.WriteLine(byte2 + " -> " + Convert.ToString(byte2, 2));
