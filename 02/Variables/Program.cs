@@ -17,7 +17,7 @@ namespace Variables
 
             char char1 = 'x';
             char char2 = '$';
-            
+               
             uint num1 = 4294967295;
             uint num2 = 1;
             uint result = num1 + num2;
