@@ -39,7 +39,17 @@ namespace TypeConversion
             uint int2ToUInt = (uint)int2;
 
             Console.WriteLine("int2ToUInt: " + int2ToUInt);
+            
+            int num1 = 10;
+            int num2 = 30;
 
+            int result1 = (int)num1 / (int)num2;
+            double result2 = num1 / num2; 
+            double result3 = num1 / (double)num2; 
+
+            Console.WriteLine("result1: " + result1);
+            Console.WriteLine("result2: " + result2);
+            Console.WriteLine("result3:" + result3);
         }
     }
 }
